@@ -1,0 +1,29 @@
+iframe{
+    width: 90%;
+    height: 50vh;
+}
+
+.programming,.writing, .music{
+    width: 45%;
+    height: 100%;
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border: 6px solid transparent;
+    border-radius: 20px;
+    background:
+            linear-gradient(to right, #ED8975, #E3D4D4),
+            linear-gradient(to right, crimson , yellow);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+
+.writing a{
+    text-decoration: none;
+    color: firebrick;
+    transition-duration: 0.2s;
+    letter-spacing: 2px;
+}
+.writing a:hover{
+    color: #B2E7E8;
+}
